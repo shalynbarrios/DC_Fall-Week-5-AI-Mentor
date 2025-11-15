@@ -150,7 +150,7 @@ export default function App() {
         </div>
       </div>
 
-      {/* Input Area */}
+      {/* Input Area          */} 
       <div className="border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-4">
         <div className="max-w-3xl mx-auto">
           <div className="flex gap-2 items-end">
