@@ -61,7 +61,7 @@ export default function App() {
       {/* Header */}
       <header className="border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-3 flex items-center justify-between">
         <h1 className="text-lg font-semibold text-gray-800 dark:text-gray-100">
-          AI Career Mentor
+          This is Billy
         </h1>
         <button
           onClick={handleReset}
@@ -160,7 +160,7 @@ export default function App() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyPress={handleKeyPress}
-                placeholder="Message AI Career Mentor..."
+                placeholder="Message Billy..."
                 rows={1}
                 className="w-full px-4 py-3 pr-12 border border-gray-300 dark:border-gray-600 rounded-2xl bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none max-h-32 overflow-y-auto"
                 style={{
