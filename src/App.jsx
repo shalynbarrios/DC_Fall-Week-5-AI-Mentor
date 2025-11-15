@@ -155,8 +155,8 @@ export default function App() {
         <div className="max-w-3xl mx-auto">
           <div className="flex gap-2 items-end">
             <div className="flex-1 relative">
-              <textarea
-                ref={inputRef}
+              <textarea 
+                ref={inputRef} 
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyPress={handleKeyPress}
